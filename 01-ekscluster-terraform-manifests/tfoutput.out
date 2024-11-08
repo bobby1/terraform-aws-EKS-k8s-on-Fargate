@@ -1,0 +1,39 @@
+account_id = "497140136649"
+aws_iam_openid_connect_provider_arn = "arn:aws:iam::497140136649:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/A4CDB2C71C50577B78684490D3C5D596"
+aws_iam_openid_connect_provider_extract_from_arn = "oidc.eks.us-east-1.amazonaws.com/id/A4CDB2C71C50577B78684490D3C5D596"
+azs = tolist([
+  "us-east-1a",
+  "us-east-1b",
+  "us-east-1c",
+  "us-east-1d",
+  "us-east-1e",
+  "us-east-1f",
+])
+cluster_arn = "arn:aws:eks:us-east-1:497140136649:cluster/b1test-dev-eksdemo1"
+cluster_certificate_authority_data = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJQlcvQm9BSlNvU0V3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRFeE1EY3dNREF5TURCYUZ3MHpOREV4TURVd01EQTNNREJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUM5cENKV2ZYcExyVWRBSER6dzgzVDdFK2EvOFZCRm5NQ2ZQdE95aTZ2V2tFd0Fxd0VYdEdyMGFnQ1QKSElYdVZxSTBkMWtycXYxbDFiUTdVeHhyemZjYU9Pc3JUSFhTaE1hRThVdkg4YllpcGtDK0ZRSjVubmtMZDljWAp4aHEyNVpQQmlGdWNtWnVJWUtyanFHQTA2TzdqR21PdnRiZFJTZ3Jpc09pMlRMVmlNNFZWQzNzNzhSRGM4MklxCnczY2E0Rm5IczlBM2FvR2R5RnlaT2txd1c1NTJKZTVqV2VucStRUjVucHU3RE95cHVrOFpENEV3MlByQ284aDIKZmQ2R3I0WGNybU9wcW0vRUovaWwvMkRxNk0wcDJmUld2UjBkM1dTR09zVnhhQ3JndUdMWlpQNGtxSXFnSStSMAozSE9HYzdSaEpOYlJPeUlHOE5TaTZSa1VxS2hOQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRUStQRzlnRTZQbkFMSFdmbDRmdUVKdnQwZmFEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQm9Nd3l0MUp4bQpYN0ZEanQvK2tIc2Nzc2dPeDFXUTdiYWZHUk5JLzJMTElVUGpEbXpGZUZjOUQvRXdJSGp3V0JnVU1SQ1VOdGVhCnM1M2xuRmNIZ3BuNVVZc2tRWWlETFd1bDl5bnBEV2FMN1JObzUrSW9vcUEzajdVbllxK1o1ZENWZ1IxOC9SQmgKV090Q2hzZGhoSDZJeFJBamdtS3JMSCtzbDBJbnZFL2JueUx4cmxPaXlCemRWajZjNFQ3QmE5aUlqN1RMd0pCZgpjZEhqQmFSOVhKT0dwMmlxMHRzTHlyaTFsS0RXQXVhREROcXdRNlNoN2tpc1cyOGhZbXpSYlZ1WS9zTSthazNHCnpVTUlsY1Q5VTc4eTArMFowMzAxdGNmYnRwQnNhaXA5KzB2cGRjUnNYRnhhS01CQWQyNmJDOXI1T3V4TjF4bjIKcGlnL1dzUndjcGp5Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+cluster_endpoint = "https://A4CDB2C71C50577B78684490D3C5D596.sk1.us-east-1.eks.amazonaws.com"
+cluster_iam_role_arn = "arn:aws:iam::497140136649:role/b1test-dev-eks-master-role"
+cluster_iam_role_name = "b1test-dev-eks-master-role"
+cluster_id = "b1test-dev-eksdemo1"
+cluster_oidc_issuer_url = "https://oidc.eks.us-east-1.amazonaws.com/id/A4CDB2C71C50577B78684490D3C5D596"
+cluster_primary_security_group_id = "sg-026e9ea8ba02f82bc"
+cluster_version = "1.31"
+ec2_bastion_public_instance_ids = "i-0d9a29330aded86bf"
+ec2_bastion_public_ip = "52.201.177.70"
+nat_public_ips = tolist([
+  "52.45.178.233",
+])
+node_group_private_arn = "arn:aws:eks:us-east-1:497140136649:nodegroup/b1test-dev-eksdemo1/b1test-dev-eks-ng-private/dec981fb-0453-6350-2464-92f192ee7da0"
+node_group_private_id = "b1test-dev-eksdemo1:b1test-dev-eks-ng-private"
+node_group_private_status = "ACTIVE"
+node_group_private_version = "1.31"
+private_subnets = [
+  "subnet-04230ddddbc937d5f",
+  "subnet-05da91a4e75c25c9b",
+]
+public_subnets = [
+  "subnet-08a6662ca8370492c",
+  "subnet-01ed7b43d8429246a",
+]
+vpc_cidr_block = "10.0.0.0/16"
+vpc_id = "vpc-0292417ee8f1c3618"
